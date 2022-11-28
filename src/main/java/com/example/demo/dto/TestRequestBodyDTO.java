@@ -1,2 +1,8 @@
-package com.example.demo.dto;public class TestRequestBodyDTO {
+package com.example.demo.dto;
+
+import lombok.Data;
+@Data
+public class TestRequestBodyDTO {
+    private int id;
+    private String message;
 }
